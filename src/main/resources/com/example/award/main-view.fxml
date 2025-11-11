@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.award.ui.MainController">
+    <padding><Insets top="16" right="16" bottom="16" left="16"/></padding>
+
+    <Label text="Выберите параметры поздравления:"/>
+
+    <TitledPane text="Поздравитель">
+        <content>
+            <HBox spacing="12">
+                <CheckBox fx:id="cbA" text="Поздравитель A"/>
+                <CheckBox fx:id="cbB" text="Поздравитель B"/>
+                <CheckBox fx:id="cbC" text="Поздравитель C"/>
+            </HBox>
+        </content>
+    </TitledPane>
+
+    <HBox spacing="12">
+        <Label text="Подарок:"/>
+        <ComboBox fx:id="giftBox" prefWidth="300"/>
+    </HBox>
+
+    <HBox spacing="12">
+        <Label text="Концерт:"/>
+        <RadioButton fx:id="rbConcertYes" text="да" toggleGroup="$concertGroup"/>
+        <RadioButton fx:id="rbConcertNo"  text="нет" toggleGroup="$concertGroup" selected="true"/>
+    </HBox>
+
+    <CheckBox fx:id="cbLoyal" text="Постоянный клиент (-10%)"/>
+
+    <Separator/>
+
+    <Label fx:id="totalLabel" text="Стоимость: 0 ₽" style="-fx-font-weight: bold;"/>
+
+    <HBox spacing="12">
+        <Label text="Состав заказа:"/>
+        <TextField fx:id="orderField" promptText="Здесь будет краткое описание" editable="false" prefWidth="380"/>
+    </HBox>
+</VBox>
