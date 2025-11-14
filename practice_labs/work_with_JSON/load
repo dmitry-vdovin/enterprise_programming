@@ -1,0 +1,457 @@
+[
+    {
+        "averageGrade": 7.25,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Smith",
+                    "subject": "Math",
+                    "grade": 5
+                },
+                {
+                    "teacher": "Johnson",
+                    "subject": "Physics",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Brown",
+                    "subject": "Chemistry",
+                    "grade": 7
+                },
+                {
+                    "teacher": "White",
+                    "subject": "Biology",
+                    "grade": 8
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Green",
+                    "subject": "History",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Black",
+                    "subject": "Geography",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Gray",
+                    "subject": "English",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Blue",
+                    "subject": "ComputerScience",
+                    "grade": 5
+                }
+            ]}
+        ],
+        "name": "John Doe"
+    },
+    {
+        "averageGrade": 7.5,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Johnson",
+                    "subject": "Programming",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Williams",
+                    "subject": "Algorithms",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Davis",
+                    "subject": "Databases",
+                    "grade": 7
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Moore",
+                    "subject": "Economics",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Taylor",
+                    "subject": "Statistics",
+                    "grade": 6
+                },
+                {
+                    "teacher": "Anderson",
+                    "subject": "Management",
+                    "grade": 8
+                }
+            ]}
+        ],
+        "name": "Alice Smith"
+    },
+    {
+        "averageGrade": 7.8,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Clark",
+                    "subject": "Physics",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Lewis",
+                    "subject": "Chemistry",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Walker",
+                    "subject": "Biology",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Hall",
+                    "subject": "Geology",
+                    "grade": 6
+                },
+                {
+                    "teacher": "Allen",
+                    "subject": "Astronomy",
+                    "grade": 8
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Young",
+                    "subject": "History",
+                    "grade": 7
+                },
+                {
+                    "teacher": "King",
+                    "subject": "PoliticalScience",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Scott",
+                    "subject": "Sociology",
+                    "grade": 9
+                }
+            ]}
+        ],
+        "name": "Michael Brown"
+    },
+    {
+        "averageGrade": 8,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Wright",
+                    "subject": "Mathematics",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Torres",
+                    "subject": "ComputerScience",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Nguyen",
+                    "subject": "Physics",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Hill",
+                    "subject": "Chemistry",
+                    "grade": 8
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Perez",
+                    "subject": "English",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Roberts",
+                    "subject": "Spanish",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Carter",
+                    "subject": "French",
+                    "grade": 8
+                }
+            ]}
+        ],
+        "name": "Emma Wilson"
+    },
+    {
+        "averageGrade": 8,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Turner",
+                    "subject": "Engineering",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Phillips",
+                    "subject": "Programming",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Campbell",
+                    "subject": "Design",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Parker",
+                    "subject": "Electronics",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Evans",
+                    "subject": "Mathematics",
+                    "grade": 9
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Adams",
+                    "subject": "History",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Baker",
+                    "subject": "Geography",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Collins",
+                    "subject": "Literature",
+                    "grade": 9
+                }
+            ]}
+        ],
+        "name": "David Johnson"
+    },
+    {
+        "averageGrade": 8,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Edwards",
+                    "subject": "Biology",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Collins",
+                    "subject": "Chemistry",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Stewart",
+                    "subject": "Medicine",
+                    "grade": 7
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Sanchez",
+                    "subject": "Psychology",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Morris",
+                    "subject": "Sociology",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Rogers",
+                    "subject": "Anthropology",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Reed",
+                    "subject": "Literature",
+                    "grade": 8
+                }
+            ]}
+        ],
+        "name": "Sophia Davis"
+    },
+    {
+        "averageGrade": 8.125,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Cook",
+                    "subject": "Law",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Morgan",
+                    "subject": "PoliticalScience",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Bell",
+                    "subject": "History",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Murphy",
+                    "subject": "Economics",
+                    "grade": 9
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Bailey",
+                    "subject": "Languages",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Rivera",
+                    "subject": "Linguistics",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Cooper",
+                    "subject": "Translation",
+                    "grade": 9
+                }
+            ]}
+        ],
+        "name": "James Miller"
+    },
+    {
+        "averageGrade": 8.125,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Howard",
+                    "subject": "Architecture",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Ward",
+                    "subject": "Design",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Foster",
+                    "subject": "UrbanPlanning",
+                    "grade": 7
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Brooks",
+                    "subject": "ArtHistory",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Kelly",
+                    "subject": "Museology",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Sanders",
+                    "subject": "Conservation",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Bennett",
+                    "subject": "Exhibition",
+                    "grade": 9
+                }
+            ]}
+        ],
+        "name": "Olivia Garcia"
+    },
+    {
+        "averageGrade": 8,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Wood",
+                    "subject": "ComputerEngineering",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Ross",
+                    "subject": "SoftwareDevelopment",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Henderson",
+                    "subject": "Networking",
+                    "grade": 7
+                },
+                {
+                    "teacher": "Barnes",
+                    "subject": "Cybersecurity",
+                    "grade": 8
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Evans",
+                    "subject": "Mathematics",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Clark",
+                    "subject": "Physics",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Davis",
+                    "subject": "Chemistry",
+                    "grade": 7
+                }
+            ]}
+        ],
+        "name": "William Martinez"
+    },
+    {
+        "averageGrade": 8,
+        "sessions": [
+            {"exams": [
+                {
+                    "teacher": "Patterson",
+                    "subject": "Marketing",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Hughes",
+                    "subject": "Advertising",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Long",
+                    "subject": "PR",
+                    "grade": 7
+                }
+            ]},
+            {"exams": [
+                {
+                    "teacher": "Flores",
+                    "subject": "Journalism",
+                    "grade": 9
+                },
+                {
+                    "teacher": "Washington",
+                    "subject": "MediaStudies",
+                    "grade": 8
+                },
+                {
+                    "teacher": "Butler",
+                    "subject": "Film",
+                    "grade": 7
+                }
+            ]}
+        ],
+        "name": "Charlotte Lee"
+    }
+]

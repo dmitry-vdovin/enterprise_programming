@@ -1,0 +1,121 @@
+10
+John Doe
+2
+4
+Math 5 Smith
+Physics 9 Johnson
+Chemistry 7 Brown
+Biology 8 White
+4
+History 9 Green
+Geography 8 Black
+English 7 Gray
+ComputerScience 5 Blue
+
+Alice Smith
+2
+3
+Programming 8 Johnson
+Algorithms 9 Williams
+Databases 7 Davis
+3
+Economics 7 Moore
+Statistics 6 Taylor
+Management 8 Anderson
+
+Michael Brown
+2
+5
+Physics 8 Clark
+Chemistry 9 Lewis
+Biology 7 Walker
+Geology 6 Hall
+Astronomy 8 Allen
+3
+History 7 Young
+PoliticalScience 8 King
+Sociology 9 Scott
+
+Emma Wilson
+2
+4
+Mathematics 9 Wright
+ComputerScience 8 Torres
+Physics 7 Nguyen
+Chemistry 8 Hill
+3
+English 9 Perez
+Spanish 7 Roberts
+French 8 Carter
+
+David Johnson
+2
+5
+Engineering 7 Turner
+Programming 9 Phillips
+Design 8 Campbell
+Electronics 7 Parker
+Mathematics 9 Evans
+3
+History 8 Adams
+Geography 7 Baker
+Literature 9 Collins
+
+Sophia Davis
+2
+3
+Biology 8 Edwards
+Chemistry 9 Collins
+Medicine 7 Stewart
+4
+Psychology 8 Sanchez
+Sociology 7 Morris
+Anthropology 9 Rogers
+Literature 8 Reed
+
+James Miller
+2
+4
+Law 9 Cook
+PoliticalScience 8 Morgan
+History 7 Bell
+Economics 9 Murphy
+3
+Languages 8 Bailey
+Linguistics 7 Rivera
+Translation 9 Cooper
+
+Olivia Garcia
+2
+3
+Architecture 9 Howard
+Design 8 Ward
+UrbanPlanning 7 Foster
+4
+ArtHistory 9 Brooks
+Museology 8 Kelly
+Conservation 7 Sanders
+Exhibition 9 Bennett
+
+William Martinez
+2
+4
+ComputerEngineering 8 Wood
+SoftwareDevelopment 9 Ross
+Networking 7 Henderson
+Cybersecurity 8 Barnes
+3
+Mathematics 9 Evans
+Physics 8 Clark
+Chemistry 7 Davis
+
+Charlotte Lee
+10
+10
+Marketing 9 Patterson
+Advertising 10 Hughes
+PR 10 Long
+3
+Journalism 9 Flores
+MediaStudies 8 Washington
+Film 7 Butler
