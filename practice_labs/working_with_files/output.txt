@@ -1,0 +1,169 @@
+	      
+	   The
+class     
+String    
+includes  
+methods   
+for       
+examining 
+individual
+characters
+of     the
+sequence, 
+for       
+comparing 
+strings,  
+for       
+searching 
+strings,  
+for       
+extracting
+substrings
+and    for
+creating a
+copy  of a
+string    
+with   all
+characters
+translated
+to        
+uppercase 
+or      to
+lowercase.
+Case      
+mapping is
+based   on
+the       
+Unicode   
+Standard  
+version   
+specified 
+by     the
+Character 
+class. The
+Java      
+language  
+proides   
+special   
+support   
+for    the
+string    
+concatenat
+operator (
++ ), and f
+conversion
+of   other
+objects to
+strings.  
+String    
+concatenat
+is        
+implemente
+through   
+the       
+StringBuil
+StringBuff
+class  and
+its append
+method.   
+String    
+conversion
+are       
+implemente
+through   
+the method
+toString, 
+defined by
+Object and
+inherited 
+by     all
+classes in
+Java.  For
+additional
+informatio
+on  string
+concatenat
+and       
+conversion
+see       
+Gosling,  
+Joy,   and
+Steele,   
+The   Java
+Language  
+Specificat
+otherwise 
+noted,ч  a
+null      
+argument  
+to       a
+constructo
+or  method
+in    this
+class will
+cause    a
+NullPointe
+to      be
+thrown.   
+	      
+	     A
+String    
+represents
+a string i
+the UTF-16
+format  in
+which     
+supplement
+characters
+are       
+represente
+by        
+surrogate 
+pairs (see
+the       
+section   
+	      
+	      
+Unicode   
+Character 
+Representa
+in     the
+Character 
+class  for
+more      
+informatio
+Index     
+values    
+refer   to
+char  code
+units, so 
+supplement
+character 
+uses   two
+positions 
+in       a
+String.   
+The String
+class     
+provides  
+	      
+	ethods
+for       
+dealing   
+with      
+Unicode   
+code      
+points    
+(i.e.,    
+characters
+in        
+addition  
+to   those
+for       
+dealing   
+with      
+Unicode   
+code units
+(i.e.,    
+char      
+values).  
