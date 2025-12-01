@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.massiv_gui_sort.ui.MainController">
+
+    <top>
+        <HBox spacing="12" BorderPane.alignment="CENTER_LEFT">
+            <padding><Insets top="10" right="12" bottom="10" left="12"/></padding>
+            <Button fx:id="startBtn" text="Start" onAction="#onStart"/>
+            <Label text="Сортировки запускаются в 3 потоках; в каждой панели — время старта и финиша, а также перестановка полосок."/>
+        </HBox>
+    </top>
+
+    <center>
+        <GridPane hgap="12" vgap="12">
+            <padding><Insets top="12" right="12" bottom="12" left="12"/></padding>
+            <columnConstraints>
+                <ColumnConstraints percentWidth="33"/>
+                <ColumnConstraints percentWidth="34"/>
+                <ColumnConstraints percentWidth="33"/>
+            </columnConstraints>
+
+            <!-- ВСТАВКИ -->
+            <TitledPane text="Вставками" collapsible="false" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                <content>
+                    <VBox spacing="6">
+                        <HBox spacing="8">
+                            <Label text="Старт:"/>
+                            <Label fx:id="insertStart" text="—"/>
+                        </HBox>
+                        <HBox spacing="8">
+                            <Label text="Финиш:"/>
+                            <Label fx:id="insertEnd" text="—"/>
+                        </HBox>
+                        <Separator/>
+                        <ScrollPane fitToWidth="true" prefHeight="480">
+                            <content>
+                                <VBox fx:id="boxInsert" spacing="4" />
+                            </content>
+                        </ScrollPane>
+                    </VBox>
+                </content>
+            </TitledPane>
+
+            <!-- ПУЗЫРЁК -->
+            <TitledPane text="Пузырьком" collapsible="false" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                <content>
+                    <VBox spacing="6">
+                        <HBox spacing="8">
+                            <Label text="Старт:"/>
+                            <Label fx:id="bubbleStart" text="—"/>
+                        </HBox>
+                        <HBox spacing="8">
+                            <Label text="Финиш:"/>
+                            <Label fx:id="bubbleEnd" text="—"/>
+                        </HBox>
+                        <Separator/>
+                        <ScrollPane fitToWidth="true" prefHeight="480">
+                            <content>
+                                <VBox fx:id="boxBubble" spacing="4" />
+                            </content>
+                        </ScrollPane>
+                    </VBox>
+                </content>
+            </TitledPane>
+
+            <!-- БЫСТРАЯ -->
+            <TitledPane text="Быстрая" collapsible="false" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                <content>
+                    <VBox spacing="6">
+                        <HBox spacing="8">
+                            <Label text="Старт:"/>
+                            <Label fx:id="quickStart" text="—"/>
+                        </HBox>
+                        <HBox spacing="8">
+                            <Label text="Финиш:"/>
+                            <Label fx:id="quickEnd" text="—"/>
+                        </HBox>
+                        <Separator/>
+                        <ScrollPane fitToWidth="true" prefHeight="480">
+                            <content>
+                                <VBox fx:id="boxQuick" spacing="4" />
+                            </content>
+                        </ScrollPane>
+                    </VBox>
+                </content>
+            </TitledPane>
+
+        </GridPane>
+    </center>
+</BorderPane>
