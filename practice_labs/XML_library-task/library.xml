@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Лев Толстой" available="6" category="Роман" price="1200" title="Война и мир" total="10" year="1869"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Лев Толстой" available="5" category="Роман" price="950" title="Анна Каренина" total="8" year="1877"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Фёдор Достоевский" available="8" category="Роман" price="800" title="Преступление и наказание" total="10" year="1866"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Фёдор Достоевский" available="4" category="Роман" price="780" title="Идиот" total="6" year="1868"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Михаил Булгаков" available="6" category="Роман" price="1100" title="Мастер и Маргарита" total="7" year="1967"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Михаил Булгаков" available="9" category="Повесть" price="650" title="Собачье сердце" total="9" year="1925"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Александр Пушкин" available="0" category="Поэма" price="550.0" title="Евгений Онегин" total="5" year="1833"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Александр Пушкин" available="6" category="Повесть" price="550" title="Капитанская дочка" total="6" year="1836"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Иван Тургенев" available="1" category="Роман" price="670" title="Отцы и дети" total="5" year="1862"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Александр Пушкин" available="7" category="Повесть" price="500" title="Дубровский" total="7" year="1841"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Михаил Булгаков" available="4" category="Роман" price="900" title="Белая гвардия" total="5" year="1925"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Иван Гончаров" available="5" category="Роман" price="850" title="Обломов" total="6" year="1859"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Борис Пастернак" available="3" category="Роман" price="1000" title="Доктор Живаго" total="4" year="1957"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Ильф и Петров" available="10" category="Сатира" price="750" title="12 стульев" total="10" year="1928"/>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <book author="Ильф и Петров" available="8" category="Сатира" price="770" title="Золотой телёнок" total="10" year="1931"/>
+                  
+
+
+
+
+
+
+
+  
+  <book author="Онегин" available="4" category="Повесть" price="750.25" title="Название" total="20" year="1940"/>
+  
+</library>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.libraryapp_task.LibraryController"
+            prefWidth="800" prefHeight="600">
+    <children>
+        <TableView fx:id="bookTable" layoutX="20" layoutY="60" prefWidth="760" prefHeight="400">
+            <columns>
+                <TableColumn fx:id="titleCol" text="Название" prefWidth="150"/>
+                <TableColumn fx:id="authorCol" text="Автор" prefWidth="150"/>
+                <TableColumn fx:id="yearCol" text="Год" prefWidth="80"/>
+                <TableColumn fx:id="categoryCol" text="Категория" prefWidth="100"/>
+                <TableColumn fx:id="priceCol" text="Цена" prefWidth="80"/>
+                <TableColumn fx:id="totalCol" text="Всего" prefWidth="70"/>
+                <TableColumn fx:id="availCol" text="В наличии" prefWidth="100"/>
+            </columns>
+        </TableView>
+
+        <Button text="Загрузить XML" layoutX="20" layoutY="20" onAction="#loadXML"/>
+        <Button text="Добавить книгу" layoutX="150" layoutY="20" onAction="#addBook"/>
+        <Button text="Поиск" layoutX="290" layoutY="20" onAction="#searchBook"/>
+        <Button text="Переоценить" layoutX="370" layoutY="20" onAction="#changePrice"/>
+        <Button text="Выдать книгу" layoutX="480" layoutY="20" onAction="#lendBook"/>
+    </children>
+</AnchorPane>
